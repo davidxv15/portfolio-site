@@ -1,26 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-center p-8 bg-blue-500 text-white">
+      <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
+      <p>This text should be styled with Tailwind.</p>
     </div>
   );
-}
+};
 
 export default App;
