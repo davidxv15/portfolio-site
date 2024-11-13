@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    open: true,  // Optionally open the browser automatically
+    open: true,  // open browser automatically
   },
 });
