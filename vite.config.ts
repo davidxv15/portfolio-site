@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig({
+const config = defineConfig({
   plugins: [react()],
   server: {
-    open: true,  // open browser automatically
+    open: true, // auto open browser
   },
 });
+
+export default config;
