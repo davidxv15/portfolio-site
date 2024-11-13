@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 const config = defineConfig({
   plugins: [react()],
+  base: '/',
   server: {
     open: true, // auto open browser
   },
