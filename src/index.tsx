@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
+console.log("Index.tsx is loaded"); // mount check
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
